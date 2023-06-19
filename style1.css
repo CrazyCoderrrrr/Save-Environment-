@@ -1,0 +1,332 @@
+ .menu {
+position:fixed;
+background-color:rgba(17, 4, 4, 0.534);
+width:100%;
+margin-top: 0px;
+top: 0px;
+z-index:10;
+
+}
+
+.menu {
+	float: center;
+  }
+  
+  .menu a {
+	color: #f2f2f2;
+	font-family: cursive;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 25px;
+  }
+  
+  .menu a:hover {
+	color: black;
+  }
+
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+#welcome {
+    background-image: url('done.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 80px;
+}
+
+#introduction {
+    background-image: url('peakpx.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+#videos {
+    background-image: url('peakpx.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#images {
+    background-image: url('peakpx.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#ourrealheros {
+    background-image: url('peakpx.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#more {
+    background-image: url('peakpx.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contact {
+    background-image: url('peakpx.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#welcome {
+    position: absolute;
+    color:rgb(255, 255, 255);
+    bottom: 0; 
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+h1 {
+
+    font-size: 80px;
+    font-family: serif;
+    font-weight: 300;
+} 
+
+h2 {
+    font-size: 32px;
+}
+
+h4 {
+
+    font-size: 23px;
+    font-family: serif;
+    font-weight: 300;
+}
+
+#name {
+    font-size: 50px;
+    line-height: 1.2;
+    font-family: 'Cinzel Decorative', cursive;
+    
+}
+
+.high
+{
+    font-size: 25px;
+    font-family: serif;
+}
+
+.high2{
+    font-size: 25px;
+    font-family: serif;
+    text-decoration: underline overline;
+    text-decoration-color:  #333131;
+}
+
+.Some
+{
+    font-size: 40px;
+}
+
+h3 {  
+    font-size: 38px;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#introduction {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 50px;
+    text-align: center;
+    
+    
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+.bigline
+{
+    font-size: 80px;
+}
+
+
+p {
+    font-size: 17px;
+
+}
+
+.parallax-inner {
+
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+
+}
+html {
+    scroll-behavior: smooth;
+    background-color: rgb(17, 16, 16);
+}
+.article:hover {
+    color:fuchsia;
+}
+
+.links
+{
+display:inline;
+padding-left:33px;
+padding-right:25px;
+font-family:fantasy;
+font-size:20px;
+}
+.link:hover
+{
+ font-size:25px;
+ text-decoration:underline;
+}
+
+#ourrealheros
+{
+text-shadow:none !important;
+color:black!important;
+background-image: url('peakpx.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#contact 
+{
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 50px;
+    text-align: center;
+    background-color:white;
+    text-shadow:none !important;
+    color:black!important;
+}
+
+.profile {
+    border-radius: 50%;
+    height: 375px;
+    width:  320px;
+
+}
+
+.submit {
+    font-size: 20px;
+    cursor: pointer;
+    top: 10;
+    left: -5000%;
+    border-color: aliceblue;
+  }
+
+.Cursive {
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.p2
+{
+    font-size: 20px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.p3
+{
+    font-size: 40px;
+    color: black;
+}
+
+.p4
+{
+    font-size: 30px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+ 
+.wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button {
+    min-width: 300px;
+    min-height: 60px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+    color: #313133;
+    background: #4FD1C5;
+  background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 100%);
+    border: none;
+    border-radius: 1000px;
+    box-shadow: 12px 12px 24px rgba(79,209,197,.64);
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 10px;
+    }
+  
+  button::before {
+  content: '';
+    border-radius: 1000px;
+    min-width: calc(300px + 12px);
+    min-height: calc(60px + 12px);
+    border: 6px solid #0ac92a;
+    box-shadow: 0 0 60px rgba(0,255,203,.64);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all .3s ease-in-out 0s;
+  }
+  
+  .button:hover, .button:focus {
+    color: #313133;
+    transform: translateY(-6px);
+  }
+  
+  button:hover::before, button:focus::before {
+    opacity: 1;
+  }
+  
+  button::after {
+    content: '';
+    width: 30px; height: 30px;
+    border-radius: 100%;
+    border: 6px solid #00FFCB;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: ring 1.5s infinite;
+  }
+  
+  button:hover::after, button:focus::after {
+    animation: none;
+    display: none;
+  }
+  
+  @keyframes ring {
+    0% {
+      width: 30px;
+      height: 30px;
+      opacity: 1;
+    }
+    100% {
+      width: 300px;
+      height: 300px;
+      opacity: 0;
+    }
+  }
